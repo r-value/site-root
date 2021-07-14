@@ -12,9 +12,9 @@ sass:
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Fuse Core
+name: rvalue
 #subtitle:
-subtitle: Frontend Developer
+subtitle: Τhіnk οncе, сοdе ΝаΝcе;
 
 # Title attribute of HTML Page, uses 'name' from above if empty
 title:
@@ -28,13 +28,13 @@ robots:
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
-url: https://tsjensen.github.io/fuse-core/
+url: https://rvalue.moe/
 
 # The 'baseurl' is prepended to all website-internal links.
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
 # If not empty, be careful to keep the leading slash, and don't add a slash at the end.
 #baseurl: ''
-baseurl: '/fuse-core'
+baseurl: ''
 
 # Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
 # In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
@@ -42,9 +42,9 @@ baseurl: '/fuse-core'
 # https://support.google.com/analytics/answer/2763052
 #ga:
 ga:
-    account: 'UA-120960520-1'
-    cookieconsent: true
-    anonymizeip: true
+#   account: 'UA-120960520-1'
+#   cookieconsent: true
+#   anonymizeip: true
 
 # Plausible.io Analytics (alternative to Google Analytics that does not need cookies -> no cookie consent required)
 # A config setting is required in plausible to enable tracking of the outbound links. Details described here:
@@ -52,13 +52,13 @@ ga:
 # Leave empty (just "plausible:" with subitems commented out) to disable.
 #plausible:
 plausible:
-    domain: 'tsjensen.github.io'
+#   domain: 'tsjensen.github.io'
 
 
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "https://avatars0.githubusercontent.com/u/8897534"
+avatar: "https://cdn.v2ex.com/gravatar/52ab8833e62cdd3773e36daa284d7a80?s=400"
 #avatar: "images/jonathan_doe.jpg"
 #avatar:
 
@@ -84,11 +84,11 @@ links:
   - twitter:
       name: Twitter
       show: true
-      href: https://twitter.com/YOUR_TWITTER_USERNAME
+      href: https://twitter.com/_rvalue
       icon: fab fa-twitter
   - weibo:
       name: 微博
-      show: true
+      show: false
       href: https://weibo.com/YOUR_WEIBO_USERNAME
       icon: fab fa-weibo
   - vine:
@@ -103,7 +103,7 @@ links:
       icon: fab fa-facebook
   - vkontakte:
       name: ВКонтакте
-      show: true
+      show: false
       href: https://vk.com/YOUR_VK_USERNAME
       icon: fab fa-vk
   - instagram:
@@ -118,8 +118,8 @@ links:
       icon: fab fa-flickr
   - steam:
       name: Steam
-      show: false
-      href: http://steamcommunity.com/id/YOUR_STEAM_CUSTOM_ID
+      show: true
+      href: http://steamcommunity.com/id/_rvalue
       icon: fab fa-steam
   - soundcloud:
       name: Soundcloud
@@ -134,7 +134,7 @@ links:
   - github:
       name: GitHub
       show: true
-      href: https://github.com/tsjensen
+      href: https://github.com/r-value
       icon: fab fa-github
   - codepen:
       name: CodePen
@@ -164,12 +164,12 @@ links:
   - blog:
       name: Blog
       show: true
-      href: http://host.domain/your_blog
+      href: http://blog.rvalue.moe
       icon: fas fa-book-open
   - email:
       name: Email
       show: true
-      href: mailto:jonathan.doe@host.domain
+      href: mailto:i@rvalue.moe
       icon: fas fa-envelope
   - publickey:
       name: PGP Key
