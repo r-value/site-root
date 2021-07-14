@@ -17,14 +17,14 @@ name: rvalue
 subtitle: Τhіnk οncе, сοdе ΝаΝcе;
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title:
+title: rvalue's mainpage
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: One line of text describing the content of the page in less than 140 characters.
-    keywords: foo, bar, baz
+    description: Personal site of rvalue
+    keywords: personal,tech
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
@@ -69,7 +69,7 @@ links:
   - blog:
       name: Blog
       show: true
-      href: http://blog.rvalue.moe
+      href: https://blog.rvalue.moe
       icon: fas fa-book-open
   - email:
       name: Email
@@ -186,6 +186,6 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    <p style='font-family: "Fira Code", Consolas, monospace;'>CS@RUC <br/> lang: zh-N, en-2, jp-1 <br/> VSCode | Vim | zsh <br/> Geo UTC+8:00 | Schedule UTC+4:00</p>
+    <p style='font-family: "Fira Code", Consolas, monospace;'>CS@RUC | SIGHIBR <br/> lang: zh-N, en-2, jp-1 <br/> VSCode | Vim | zsh <br/> Geo UTC+8:00 | Schedule UTC+4:00</p>
 
 #EOF
