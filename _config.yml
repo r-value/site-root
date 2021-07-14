@@ -66,6 +66,31 @@ avatar: "https://cdn.v2ex.com/gravatar/52ab8833e62cdd3773e36daa284d7a80?s=400"
 # All the social media and other sites that we want to link to. The 'show' flag determines if the link is shown.
 # The order of this list controls the order of the links on the page. Feel free to add.
 links:
+  - blog:
+      name: Blog
+      show: true
+      href: http://blog.rvalue.moe
+      icon: fas fa-book-open
+  - email:
+      name: Email
+      show: true
+      href: mailto:i@rvalue.moe
+      icon: fas fa-envelope
+  - publickey:
+      name: PGP Key
+      show: true
+      href: https://github.com/r-value.gpg
+      icon: fas fa-key
+  - github:
+      name: GitHub
+      show: true
+      href: https://github.com/r-value
+      icon: fab fa-github
+  - telegram:
+      name: Telegram
+      show: true
+      href: https://t.me/rvalue_official
+      icon: fab fa-telegram
   - xing:
       name: Xing
       show: false
@@ -131,11 +156,6 @@ links:
       show: false
       href: http://www.last.fm/user/YOUR_LASTFM_USERNAME
       icon: fab fa-lastfm
-  - github:
-      name: GitHub
-      show: true
-      href: https://github.com/r-value
-      icon: fab fa-github
   - codepen:
       name: CodePen
       show: false
@@ -161,27 +181,11 @@ links:
       show: false
       href: https://YOUR_TUMBLR_USERNAME.tumblr.com/
       icon: fab fa-tumblr
-  - blog:
-      name: Blog
-      show: true
-      href: http://blog.rvalue.moe
-      icon: fas fa-book-open
-  - email:
-      name: Email
-      show: true
-      href: mailto:i@rvalue.moe
-      icon: fas fa-envelope
-  - publickey:
-      name: PGP Key
-      show: true
-      href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
-      icon: fas fa-key
 
 
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Any (multiline) text containing simple HTML,
-    such as links or ... lorem ipsum.
+    <p style='font-family: "Fira Code", Consolas, monospace;'>CS@RUC <br/> lang: zh-N, en-2, jp-1 <br/> VSCode | Vim | zsh <br/> Geo UTC+8:00 | Schedule UTC+4:00</p>
 
 #EOF
