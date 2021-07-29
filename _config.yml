@@ -186,6 +186,6 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    <p style='font-family: "Fira Code", Consolas, monospace;'>CS@RUC | SIGHIBR <br/> lang: zh-N, en-2, jp-1 <br/> VSCode | Vim | zsh <br/> Geo UTC+8:00 | Schedule UTC+4:00</p>
+    <p style='font-family: "Fira Code", Consolas, monospace;'>CS@RUC | SIGHIBR | INTP-T <br/> lang: zh-N, en-2, jp-1 <br/> VSCode | Vim | zsh <br/> Geo UTC+8:00 | Schedule UTC+4:00</p>
 
 #EOF
