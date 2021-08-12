@@ -42,7 +42,7 @@ baseurl: ''
 # https://support.google.com/analytics/answer/2763052
 #ga:
 ga:
-    account: 'G-9KQRE0YY2C'
+    account: 'UA-202267371-1'
     cookieconsent: true
     anonymizeip: true
 
