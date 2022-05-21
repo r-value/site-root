@@ -29,9 +29,9 @@ permalink: /
 
     <!-- Stylesheets -->
     {%- comment -%} Bootstrap should be the first stylesheet {%- endcomment %}
-    <link rel="stylesheet" type="text/css" crossorigin="anonymous"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l">
+    <link rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css"
+          integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA=="/>
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/theme.css">
     <link rel="stylesheet" type="text/css" crossorigin="anonymous"
           href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
@@ -42,12 +42,12 @@ permalink: /
 
     {% if site.ga and site.ga.cookieconsent -%}
     <!-- Cookie Consent popup to comply with EU cookie law -->
-    <link rel="stylesheet" type="text/css" crossorigin="anonymous"
-          href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
-          integrity="sha384-nA7usz4cMKo7RylsCZnpe0V9qx5X7sa011o0OrDzrKUE7Ero1gB48Fjaw6SFxVZe" />
-    <script async crossorigin="anonymous" data-cfasync="false"
-          src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
-          integrity="sha384-xLPjH6nqG4p/2mu1KJ1t+4KqcvkyXVwBucQtyGK65lDNfKzECxGY/QEYWR+Wompr"></script>
+    <link rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer"
+          href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.0.6/cookieconsent.min.css"
+          integrity="sha512-tMfSZ1vZotwtadyiwO7UAXDbIniXvdEXFUDYBYAZIKhX5u2631CDVtVj9xi7bX4pVwrRbVWg+tbNJ2eUe7yt+A==" />
+    <script crossorigin="anonymous" referrerpolicy="no-referrer"
+          src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent/3.0.6/cookieconsent.min.js"
+          integrity="sha512-WX5AdrqXegPOhlPGhNFZQD2UIHlVhDk/ZU/uKpw8yghCu5uXaim8iSt0KluUkhXh0Ll5mluR+RTSUE/BDmU+5g=="></script>
     <script>
         window.addEventListener("load", function(){
           window.cookieconsent.initialise({
